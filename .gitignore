@@ -26,6 +26,7 @@ DerivedData
 /site
 
 .DS_Store
+samples/*/Pods
 # Pods/
 # *.xcworkspace/
 samples/**/GoogleService-Info.plist
