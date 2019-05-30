@@ -5,11 +5,11 @@ set -eo pipefail
 EXIT_STATUS=0
 
 folders=( "AnonymousAuth" "Auth" "Database" "EmailAuth" "FacebookAuth" \
-    "Firestore" "GoogleAuth" "PhoneAuth" "Storage" )
+    "Firestore" "GoogleAuth" "OAuth" "PhoneAuth" "Storage" )
 
 schemes=( "FirebaseAnonymousAuthUI" "FirebaseAuthUI" "FirebaseDatabaseUI" \
     "FirebaseEmailAuthUI" "FirebaseFacebookAuthUI" "FirebaseFirestoreUI" \
-    "FirebaseGoogleAuthUI" "FirebasePhoneAuthUI" "FirebaseStorageUI" )
+    "FirebaseGoogleAuthUI" "FirebaseOAuthUI" "FirebasePhoneAuthUI" "FirebaseStorageUI" )
 
 pod repo update;
 
@@ -26,6 +26,6 @@ do
     test \
     ONLY_ACTIVE_ARCH=YES \
     | xcpretty) || EXIT_STATUS=$?;
-  pod deintegrate;
+  # pod deintegrate;
   cd ..;
 done

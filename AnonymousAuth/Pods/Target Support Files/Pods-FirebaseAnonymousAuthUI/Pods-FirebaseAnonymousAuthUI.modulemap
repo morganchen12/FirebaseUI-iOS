@@ -1,0 +1,6 @@
+framework module Pods_FirebaseAnonymousAuthUI {
+  umbrella header "Pods-FirebaseAnonymousAuthUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2181AD991920F02D822FAEF4 /* Pods_FirebaseEmailAuthUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EF4E645B666D0C2F79CEFB /* Pods_FirebaseEmailAuthUITests.framework */; };
 		8D69E36F21DD623F00CFA49B /* FirebaseEmailAuthUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D69E36521DD623F00CFA49B /* FirebaseEmailAuthUI.framework */; };
 		8D69E37421DD623F00CFA49B /* FirebaseEmailAuthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D69E37321DD623F00CFA49B /* FirebaseEmailAuthUITests.m */; };
 		8D69E37621DD623F00CFA49B /* FirebaseEmailAuthUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D69E36821DD623F00CFA49B /* FirebaseEmailAuthUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +37,10 @@
 		8D69E3C121DD63D100CFA49B /* FUIPasswordSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D69E3B921DD63D100CFA49B /* FUIPasswordSignInViewController.xib */; };
 		8DB377A0226137CC00BF5095 /* FUIConfirmEmailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DB3779E226137CC00BF5095 /* FUIConfirmEmailViewController.h */; };
 		8DB377A1226137CC00BF5095 /* FUIConfirmEmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3779F226137CC00BF5095 /* FUIConfirmEmailViewController.m */; };
+		8DE97AD122A5CAEF0098C63F /* ic_email@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D69E3B221DD63D000CFA49B /* ic_email@3x.png */; };
+		8DE97AD222A5CAEF0098C63F /* ic_email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D69E3B321DD63D000CFA49B /* ic_email@2x.png */; };
+		8DE97AD322A5CAEF0098C63F /* ic_email.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D69E3B421DD63D000CFA49B /* ic_email.png */; };
+		D6A919DFADEF154188BFEF24 /* Pods_FirebaseEmailAuthUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDFC18D06912BF1B658C20C /* Pods_FirebaseEmailAuthUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2954548288FEA659153C6B93 /* Pods-FirebaseEmailAuthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseEmailAuthUITests.release.xcconfig"; path = "Target Support Files/Pods-FirebaseEmailAuthUITests/Pods-FirebaseEmailAuthUITests.release.xcconfig"; sourceTree = "<group>"; };
+		65EF4E645B666D0C2F79CEFB /* Pods_FirebaseEmailAuthUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseEmailAuthUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68083CDF34EFEC324F066229 /* Pods-FirebaseEmailAuthUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseEmailAuthUITests.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseEmailAuthUITests/Pods-FirebaseEmailAuthUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F215A9661A5424BEE62D38F /* Pods-FirebaseEmailAuthUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseEmailAuthUI.release.xcconfig"; path = "Target Support Files/Pods-FirebaseEmailAuthUI/Pods-FirebaseEmailAuthUI.release.xcconfig"; sourceTree = "<group>"; };
 		8D69E36521DD623F00CFA49B /* FirebaseEmailAuthUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FirebaseEmailAuthUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D69E36821DD623F00CFA49B /* FirebaseEmailAuthUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirebaseEmailAuthUI.h; sourceTree = "<group>"; };
 		8D69E36921DD623F00CFA49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,6 +90,8 @@
 		8D69E3B921DD63D100CFA49B /* FUIPasswordSignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FUIPasswordSignInViewController.xib; path = Resources/FUIPasswordSignInViewController.xib; sourceTree = "<group>"; };
 		8DB3779E226137CC00BF5095 /* FUIConfirmEmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUIConfirmEmailViewController.h; sourceTree = "<group>"; };
 		8DB3779F226137CC00BF5095 /* FUIConfirmEmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUIConfirmEmailViewController.m; sourceTree = "<group>"; };
+		AFDFC18D06912BF1B658C20C /* Pods_FirebaseEmailAuthUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseEmailAuthUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5979BE06DA8B7313E27ED5E /* Pods-FirebaseEmailAuthUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseEmailAuthUI.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseEmailAuthUI/Pods-FirebaseEmailAuthUI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A919DFADEF154188BFEF24 /* Pods_FirebaseEmailAuthUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,15 +108,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D69E36F21DD623F00CFA49B /* FirebaseEmailAuthUI.framework in Frameworks */,
+				2181AD991920F02D822FAEF4 /* Pods_FirebaseEmailAuthUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		058F9EBEA52C2AC0368F3E92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFDFC18D06912BF1B658C20C /* Pods_FirebaseEmailAuthUI.framework */,
+				65EF4E645B666D0C2F79CEFB /* Pods_FirebaseEmailAuthUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3F62AEE76F7ADD8E7928642E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				D5979BE06DA8B7313E27ED5E /* Pods-FirebaseEmailAuthUI.debug.xcconfig */,
+				6F215A9661A5424BEE62D38F /* Pods-FirebaseEmailAuthUI.release.xcconfig */,
+				68083CDF34EFEC324F066229 /* Pods-FirebaseEmailAuthUITests.debug.xcconfig */,
+				2954548288FEA659153C6B93 /* Pods-FirebaseEmailAuthUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -116,6 +142,7 @@
 				8D69E37221DD623F00CFA49B /* FirebaseEmailAuthUITests */,
 				8D69E36621DD623F00CFA49B /* Products */,
 				3F62AEE76F7ADD8E7928642E /* Pods */,
+				058F9EBEA52C2AC0368F3E92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,10 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D69E37921DD623F00CFA49B /* Build configuration list for PBXNativeTarget "FirebaseEmailAuthUI" */;
 			buildPhases = (
+				DA39A68CF399A12F91EBF4DB /* [CP] Check Pods Manifest.lock */,
 				8D69E36021DD623F00CFA49B /* Headers */,
 				8D69E36121DD623F00CFA49B /* Sources */,
 				8D69E36221DD623F00CFA49B /* Frameworks */,
 				8D69E36321DD623F00CFA49B /* Resources */,
+				1DA0A4CD2ECF4ECF90C28FF0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D69E37C21DD623F00CFA49B /* Build configuration list for PBXNativeTarget "FirebaseEmailAuthUITests" */;
 			buildPhases = (
+				22F505474F178565D6D25660 /* [CP] Check Pods Manifest.lock */,
 				8D69E36A21DD623F00CFA49B /* Sources */,
 				8D69E36B21DD623F00CFA49B /* Frameworks */,
 				8D69E36C21DD623F00CFA49B /* Resources */,
+				495DEF7491663F5C5FCC3832 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -296,10 +327,94 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE97AD122A5CAEF0098C63F /* ic_email@3x.png in Resources */,
+				8DE97AD322A5CAEF0098C63F /* ic_email.png in Resources */,
+				8DE97AD222A5CAEF0098C63F /* ic_email@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DA0A4CD2ECF4ECF90C28FF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseEmailAuthUI/Pods-FirebaseEmailAuthUI-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseEmailAuthUI/Pods-FirebaseEmailAuthUI-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseEmailAuthUI/Pods-FirebaseEmailAuthUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22F505474F178565D6D25660 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseEmailAuthUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		495DEF7491663F5C5FCC3832 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseEmailAuthUITests/Pods-FirebaseEmailAuthUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseEmailAuthUITests/Pods-FirebaseEmailAuthUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseEmailAuthUITests/Pods-FirebaseEmailAuthUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA39A68CF399A12F91EBF4DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseEmailAuthUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D69E36121DD623F00CFA49B /* Sources */ = {
@@ -456,6 +571,7 @@
 		};
 		8D69E37A21DD623F00CFA49B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5979BE06DA8B7313E27ED5E /* Pods-FirebaseEmailAuthUI.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +586,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-framework",
@@ -494,6 +611,7 @@
 		};
 		8D69E37B21DD623F00CFA49B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F215A9661A5424BEE62D38F /* Pods-FirebaseEmailAuthUI.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +626,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-framework",
@@ -532,6 +651,7 @@
 		};
 		8D69E37D21DD623F00CFA49B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68083CDF34EFEC324F066229 /* Pods-FirebaseEmailAuthUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FirebaseEmailAuthUITests/Info.plist;
@@ -539,6 +659,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -563,6 +688,7 @@
 		};
 		8D69E37E21DD623F00CFA49B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2954548288FEA659153C6B93 /* Pods-FirebaseEmailAuthUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FirebaseEmailAuthUITests/Info.plist;
@@ -570,6 +696,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",

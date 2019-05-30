@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,11 +15,13 @@
 		3245016E224B987400AF2E90 /* FUIStorageDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3245016C224B987400AF2E90 /* FUIStorageDefine.m */; };
 		32A5DB2722755E480029B3D5 /* FIRStorageDownloadTask+SDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A5DB2522755E480029B3D5 /* FIRStorageDownloadTask+SDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32A5DB2822755E480029B3D5 /* FIRStorageDownloadTask+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A5DB2622755E480029B3D5 /* FIRStorageDownloadTask+SDWebImage.m */; };
+		87C1852E06A05E51EFDC08FC /* Pods_FirebaseStorageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A75B917146945217B72CCB /* Pods_FirebaseStorageUITests.framework */; };
 		8D69E60621DE968300CFA49B /* FirebaseStorageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D69E5FC21DE968300CFA49B /* FirebaseStorageUI.framework */; };
 		8D69E60D21DE968300CFA49B /* FirebaseStorageUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D69E5FF21DE968300CFA49B /* FirebaseStorageUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D69E61821DE96CF00CFA49B /* UIImageView+FirebaseStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D69E61621DE96CF00CFA49B /* UIImageView+FirebaseStorage.m */; };
 		8D69E61921DE96CF00CFA49B /* UIImageView+FirebaseStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D69E61721DE96CF00CFA49B /* UIImageView+FirebaseStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D69E61B21DE96D900CFA49B /* FUIImageViewCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D69E61A21DE96D900CFA49B /* FUIImageViewCategoryTests.m */; };
+		BF3F069B8549FE7F9E67FCCA /* Pods_FirebaseStorageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C747BEDF8648495B1167B811 /* Pods_FirebaseStorageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		157D01C3545F778ADDA4C558 /* Pods-FirebaseStorageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseStorageUITests.release.xcconfig"; path = "Target Support Files/Pods-FirebaseStorageUITests/Pods-FirebaseStorageUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3245015F224B963B00AF2E90 /* FUIStorageImageLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FUIStorageImageLoader.h; sourceTree = "<group>"; };
 		32450160224B963B00AF2E90 /* FUIStorageImageLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUIStorageImageLoader.m; sourceTree = "<group>"; };
 		32450163224B96B400AF2E90 /* NSURL+FirebaseStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+FirebaseStorage.h"; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		8D69E61621DE96CF00CFA49B /* UIImageView+FirebaseStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+FirebaseStorage.m"; sourceTree = "<group>"; };
 		8D69E61721DE96CF00CFA49B /* UIImageView+FirebaseStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+FirebaseStorage.h"; sourceTree = "<group>"; };
 		8D69E61A21DE96D900CFA49B /* FUIImageViewCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUIImageViewCategoryTests.m; sourceTree = "<group>"; };
+		9B25474DE40797D10372336F /* Pods-FirebaseStorageUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseStorageUI.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseStorageUI/Pods-FirebaseStorageUI.debug.xcconfig"; sourceTree = "<group>"; };
+		C6A75B917146945217B72CCB /* Pods_FirebaseStorageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseStorageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C747BEDF8648495B1167B811 /* Pods_FirebaseStorageUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseStorageUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE04B0283BB8BCA8E27E79B /* Pods-FirebaseStorageUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseStorageUI.release.xcconfig"; path = "Target Support Files/Pods-FirebaseStorageUI/Pods-FirebaseStorageUI.release.xcconfig"; sourceTree = "<group>"; };
+		D8E44914E2F0EDA0846A7765 /* Pods-FirebaseStorageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseStorageUITests.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseStorageUITests/Pods-FirebaseStorageUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3F069B8549FE7F9E67FCCA /* Pods_FirebaseStorageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D69E60621DE968300CFA49B /* FirebaseStorageUI.framework in Frameworks */,
+				87C1852E06A05E51EFDC08FC /* Pods_FirebaseStorageUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +87,7 @@
 				8D69E60921DE968300CFA49B /* FirebaseStorageUITests */,
 				8D69E5FD21DE968300CFA49B /* Products */,
 				E3D604E8D1C7578D22E758BC /* Pods */,
+				EAA9A39203A4DD2370E41C95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,8 +131,21 @@
 		E3D604E8D1C7578D22E758BC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				9B25474DE40797D10372336F /* Pods-FirebaseStorageUI.debug.xcconfig */,
+				CBE04B0283BB8BCA8E27E79B /* Pods-FirebaseStorageUI.release.xcconfig */,
+				D8E44914E2F0EDA0846A7765 /* Pods-FirebaseStorageUITests.debug.xcconfig */,
+				157D01C3545F778ADDA4C558 /* Pods-FirebaseStorageUITests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EAA9A39203A4DD2370E41C95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C747BEDF8648495B1167B811 /* Pods_FirebaseStorageUI.framework */,
+				C6A75B917146945217B72CCB /* Pods_FirebaseStorageUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D69E61021DE968300CFA49B /* Build configuration list for PBXNativeTarget "FirebaseStorageUI" */;
 			buildPhases = (
+				18ADEC584E79AAF3F875AED5 /* [CP] Check Pods Manifest.lock */,
 				8D69E5F721DE968300CFA49B /* Headers */,
 				8D69E5F821DE968300CFA49B /* Sources */,
 				8D69E5F921DE968300CFA49B /* Frameworks */,
@@ -165,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D69E61321DE968300CFA49B /* Build configuration list for PBXNativeTarget "FirebaseStorageUITests" */;
 			buildPhases = (
+				095DE7498BFBD51C67F95C62 /* [CP] Check Pods Manifest.lock */,
 				8D69E60121DE968300CFA49B /* Sources */,
 				8D69E60221DE968300CFA49B /* Frameworks */,
 				8D69E60321DE968300CFA49B /* Resources */,
+				3B53770D45218CDFE352CF42 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +257,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		095DE7498BFBD51C67F95C62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseStorageUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18ADEC584E79AAF3F875AED5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseStorageUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B53770D45218CDFE352CF42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseStorageUITests/Pods-FirebaseStorageUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseStorageUITests/Pods-FirebaseStorageUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseStorageUITests/Pods-FirebaseStorageUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D69E5F821DE968300CFA49B /* Sources */ = {
@@ -383,6 +474,7 @@
 		};
 		8D69E61121DE968300CFA49B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B25474DE40797D10372336F /* Pods-FirebaseStorageUI.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -397,6 +489,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.firebase.FirebaseStorageUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -406,6 +499,7 @@
 		};
 		8D69E61221DE968300CFA49B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBE04B0283BB8BCA8E27E79B /* Pods-FirebaseStorageUI.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -420,6 +514,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.firebase.FirebaseStorageUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -429,6 +524,7 @@
 		};
 		8D69E61421DE968300CFA49B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8E44914E2F0EDA0846A7765 /* Pods-FirebaseStorageUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FirebaseStorageUITests/Info.plist;
@@ -451,6 +547,7 @@
 		};
 		8D69E61521DE968300CFA49B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 157D01C3545F778ADDA4C558 /* Pods-FirebaseStorageUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FirebaseStorageUITests/Info.plist;

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BFF45CB8D8F30E4EB369649 /* Pods_FirebaseFacebookAuthUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41C755EF85FF1887C97FBEC /* Pods_FirebaseFacebookAuthUITests.framework */; };
+		7CBB3D42F4762A3EA3852A9C /* Pods_FirebaseFacebookAuthUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC663920AD3051BF435D6C1 /* Pods_FirebaseFacebookAuthUI.framework */; };
 		8D69E3DB21DD83EB00CFA49B /* FirebaseFacebookAuthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D69E3DA21DD83EB00CFA49B /* FirebaseFacebookAuthUITests.m */; };
 		8D69E3DD21DD83EB00CFA49B /* FirebaseFacebookAuthUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D69E3CF21DD83EB00CFA49B /* FirebaseFacebookAuthUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D69E3E821DD843800CFA49B /* FUIFacebookAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D69E3E621DD843800CFA49B /* FUIFacebookAuth.m */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A7E6C100B47D87DDD50E55A /* Pods-FirebaseFacebookAuthUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseFacebookAuthUI.release.xcconfig"; path = "Target Support Files/Pods-FirebaseFacebookAuthUI/Pods-FirebaseFacebookAuthUI.release.xcconfig"; sourceTree = "<group>"; };
+		37EAD96D747C9350D324C336 /* Pods-FirebaseFacebookAuthUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseFacebookAuthUITests.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseFacebookAuthUITests/Pods-FirebaseFacebookAuthUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8D69E3CC21DD83EB00CFA49B /* FirebaseFacebookAuthUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FirebaseFacebookAuthUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D69E3CF21DD83EB00CFA49B /* FirebaseFacebookAuthUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirebaseFacebookAuthUI.h; sourceTree = "<group>"; };
 		8D69E3D021DD83EB00CFA49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -132,6 +136,10 @@
 		8D69E44821DD845100CFA49B /* FUIFacebookAuthTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUIFacebookAuthTest.m; sourceTree = "<group>"; };
 		8D69E44921DD845100CFA49B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8D69E44A21DD845100CFA49B /* FUIFacebookAuthTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUIFacebookAuthTest.h; sourceTree = "<group>"; };
+		BEC663920AD3051BF435D6C1 /* Pods_FirebaseFacebookAuthUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseFacebookAuthUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41C755EF85FF1887C97FBEC /* Pods_FirebaseFacebookAuthUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseFacebookAuthUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7A76AC58173462F44024E5 /* Pods-FirebaseFacebookAuthUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseFacebookAuthUI.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseFacebookAuthUI/Pods-FirebaseFacebookAuthUI.debug.xcconfig"; sourceTree = "<group>"; };
+		FA6A2708A966B96EFC5832AF /* Pods-FirebaseFacebookAuthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseFacebookAuthUITests.release.xcconfig"; path = "Target Support Files/Pods-FirebaseFacebookAuthUITests/Pods-FirebaseFacebookAuthUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CBB3D42F4762A3EA3852A9C /* Pods_FirebaseFacebookAuthUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,15 +156,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D69E44D21DD88BB00CFA49B /* FirebaseFacebookAuthUI.framework in Frameworks */,
+				3BFF45CB8D8F30E4EB369649 /* Pods_FirebaseFacebookAuthUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		437C2CA5F133F6F676E384DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEC663920AD3051BF435D6C1 /* Pods_FirebaseFacebookAuthUI.framework */,
+				C41C755EF85FF1887C97FBEC /* Pods_FirebaseFacebookAuthUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DC88936A359F0A20973DC4C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				DC7A76AC58173462F44024E5 /* Pods-FirebaseFacebookAuthUI.debug.xcconfig */,
+				0A7E6C100B47D87DDD50E55A /* Pods-FirebaseFacebookAuthUI.release.xcconfig */,
+				37EAD96D747C9350D324C336 /* Pods-FirebaseFacebookAuthUITests.debug.xcconfig */,
+				FA6A2708A966B96EFC5832AF /* Pods-FirebaseFacebookAuthUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -167,6 +190,7 @@
 				8D69E3D921DD83EB00CFA49B /* FirebaseFacebookAuthUITests */,
 				8D69E3CD21DD83EB00CFA49B /* Products */,
 				7DC88936A359F0A20973DC4C /* Pods */,
+				437C2CA5F133F6F676E384DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -241,10 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D69E3E021DD83EB00CFA49B /* Build configuration list for PBXNativeTarget "FirebaseFacebookAuthUI" */;
 			buildPhases = (
+				1B307113E84F03D6B3E04415 /* [CP] Check Pods Manifest.lock */,
 				8D69E3C721DD83EB00CFA49B /* Headers */,
 				8D69E3C821DD83EB00CFA49B /* Sources */,
 				8D69E3C921DD83EB00CFA49B /* Frameworks */,
 				8D69E3CA21DD83EB00CFA49B /* Resources */,
+				5D29EC8F6E3FBB61830E5797 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D69E3E321DD83EB00CFA49B /* Build configuration list for PBXNativeTarget "FirebaseFacebookAuthUITests" */;
 			buildPhases = (
+				8AFDD51DD4AB66C2C3EDC6C2 /* [CP] Check Pods Manifest.lock */,
 				8D69E3D121DD83EB00CFA49B /* Sources */,
 				8D69E3D221DD83EB00CFA49B /* Frameworks */,
 				8D69E3D321DD83EB00CFA49B /* Resources */,
+				7947FA702B92A0371540E18D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -415,6 +443,87 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B307113E84F03D6B3E04415 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseFacebookAuthUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D29EC8F6E3FBB61830E5797 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseFacebookAuthUI/Pods-FirebaseFacebookAuthUI-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseFacebookAuthUI/Pods-FirebaseFacebookAuthUI-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseFacebookAuthUI/Pods-FirebaseFacebookAuthUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7947FA702B92A0371540E18D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseFacebookAuthUITests/Pods-FirebaseFacebookAuthUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseFacebookAuthUITests/Pods-FirebaseFacebookAuthUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseFacebookAuthUITests/Pods-FirebaseFacebookAuthUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AFDD51DD4AB66C2C3EDC6C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseFacebookAuthUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D69E3C821DD83EB00CFA49B /* Sources */ = {
@@ -661,6 +770,7 @@
 		};
 		8D69E3E121DD83EB00CFA49B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7A76AC58173462F44024E5 /* Pods-FirebaseFacebookAuthUI.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -675,6 +785,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-framework",
@@ -703,6 +814,7 @@
 		};
 		8D69E3E221DD83EB00CFA49B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7E6C100B47D87DDD50E55A /* Pods-FirebaseFacebookAuthUI.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -717,6 +829,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-framework",
@@ -745,6 +858,7 @@
 		};
 		8D69E3E421DD83EB00CFA49B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37EAD96D747C9350D324C336 /* Pods-FirebaseFacebookAuthUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FirebaseFacebookAuthUITests/Info.plist;
@@ -789,6 +903,7 @@
 		};
 		8D69E3E521DD83EB00CFA49B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA6A2708A966B96EFC5832AF /* Pods-FirebaseFacebookAuthUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FirebaseFacebookAuthUITests/Info.plist;

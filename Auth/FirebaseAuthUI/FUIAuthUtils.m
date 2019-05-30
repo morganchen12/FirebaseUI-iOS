@@ -34,6 +34,9 @@ NSString *const FUIAuthBundleName = @"FirebaseAuthUI";
   if (!frameworkBundle) {
     frameworkBundle = [NSBundle bundleForClass:[self class]];
   }
+  if (!frameworkBundle) {
+    frameworkBundle = [NSBundle mainBundle];
+  }
   return frameworkBundle;
 }
 

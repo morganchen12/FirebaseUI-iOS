@@ -76,8 +76,6 @@ static NSString *const kAuthUICodingKey = @"authUI";
   if (self) {
     _auth = authUI.auth;
     _authUI = authUI;
-
-    _activityIndicator = [[self class] addActivityIndicator:self.view];
   }
   return self;
 }
@@ -86,6 +84,11 @@ static NSString *const kAuthUICodingKey = @"authUI";
   return [self initWithNibName:NSStringFromClass([self class])
                         bundle:[FUIAuthUtils bundleNamed:FUIAuthBundleName]
                         authUI:authUI];
+}
+
+- (void)viewDidLoad {
+  [super viewDidLoad];
+  _activityIndicator = [[self class] addActivityIndicator:self.view];
 }
 
 - (void)viewDidLayoutSubviews {
