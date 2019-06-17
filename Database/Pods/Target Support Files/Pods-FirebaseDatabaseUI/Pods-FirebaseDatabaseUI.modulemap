@@ -1,6 +1,0 @@
-framework module Pods_FirebaseDatabaseUI {
-  umbrella header "Pods-FirebaseDatabaseUI-umbrella.h"
-
-  export *
-  module * { export * }
-}

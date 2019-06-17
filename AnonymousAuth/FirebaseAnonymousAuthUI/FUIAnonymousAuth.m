@@ -19,7 +19,7 @@
 #import "FUIAnonymousAuth.h"
 #import <FirebaseUI/FUIAuthBaseViewController.h>
 #import <FirebaseUI/FUIAuthBaseViewController_Internal.h>
-#import "FUIAuthErrorUtils.h"
+#import <FirebaseUI/FUIAuthErrorUtils.h>
 
 /** @var kTableName
     @brief The name of the strings table to search for localized strings.

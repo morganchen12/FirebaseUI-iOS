@@ -1,9 +1,0 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth" "${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore" "${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI" "${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher" "${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac" "${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities" "${PODS_CONFIGURATION_BUILD_DIR}/OCMock" "${PODS_ROOT}/GoogleSignIn/Frameworks"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth/FirebaseAuth.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseUI.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/OCMock/OCMock.framework/Headers" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Firebase" "${PODS_ROOT}/Headers/Public/FirebaseAuthInterop" $(inherited) ${PODS_ROOT}/Firebase/CoreOnly/Sources $(PODS_ROOT)/FirebaseUI/FirebaseAuthUI
-LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -l"z" -framework "CoreGraphics" -framework "CoreText" -framework "Foundation" -framework "GTMSessionFetcher" -framework "GoogleToolboxForMac" -framework "GoogleUtilities" -framework "LocalAuthentication" -framework "OCMock" -framework "SafariServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
-PODS_BUILD_DIR = ${BUILD_DIR}
-PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
-PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
-PODS_ROOT = ${SRCROOT}/Pods

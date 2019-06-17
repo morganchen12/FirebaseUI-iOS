@@ -1,6 +1,0 @@
-framework module Pods_FirebaseFacebookAuthUITests {
-  umbrella header "Pods-FirebaseFacebookAuthUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
